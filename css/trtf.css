@@ -1,0 +1,702 @@
+/*html*/
+
+html,
+body {
+    height: 100%;
+}
+
+section {
+    padding: 50px 0px;
+}
+/* Navigation */
+
+.navbar {
+    background-color: black;
+    overflow: none;
+}
+
+.navbar>.container .navbar-brand {
+    color: white;
+    font-family: 'Kreon', serif;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    background-color: yellow;
+    line-height: 50px;
+}
+
+.donate {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    background-color: yellow;
+    line-height: 50px;
+    border-color: white;
+}
+
+.navbar-default .navbar-nav>.donate a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>.donate>a:hover {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    line-height: 50px;
+    background-color: green;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+}
+/* First Section */
+
+#landing {
+    background-image: url(../img/blank-chalkboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#landing h1 {
+    font-family: 'Kreon', serif;
+    font-size: 60px;
+    color: black;
+    line-height: 75px;
+    margin-top: 100px;
+}
+
+#landing button {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: yellow;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    outline: none;
+}
+
+#landing button:hover {
+    background-color: green;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+}
+
+#landing button a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#landing button a:hover {
+    color: white;
+}
+/* Information */
+
+#info iframe {
+    width: 100%;
+    height: 300px;
+}
+
+#info span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#info i {
+    font-size: 20px;
+    margin: 10px;
+}
+/* Section 2 */
+
+#aboutus {
+    background-color: white;
+}
+
+#aboutus h1 {
+    font-family: 'Kreon', serif;
+    font-size: 60px;
+    color: black;
+    margin: 50px 20px 20px 20px;
+}
+
+#aboutus h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: black;
+    margin: 20px;
+    line-height: 50px;
+}
+
+#aboutus h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    line-height: 36px;
+}
+
+#aboutus p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+    line-height: 20px;
+}
+
+#aboutus button {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: yellow;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-decoration: none;
+    outline: none;
+}
+
+#aboutus button:hover {
+    background-color: green;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+}
+
+#aboutus button a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#aboutus button a:hover {
+    color: white;
+}
+/* Section 3 */
+
+#helpinghand {
+    background-image: url(../img/hospital-hand.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#helpinghand h1 {
+    font-family: 'Kreon', serif;
+    font-size: 60px;
+    color: black;
+    margin: 50px 20px 20px 20px;
+}
+
+#helpinghand h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: black;
+    margin: 20px;
+    line-height: 50px;
+}
+
+#helpinghand h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: black;
+    margin: 20px;
+    line-height: 35px;
+}
+
+#helpinghand p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+    line-height: 20px;
+}
+
+#helpinghand .apply {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: blue;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 0px 0px 25px 0px;
+    text-decoration: none;
+    outline: none;
+}
+
+#helpinghand .apply:hover {
+    background-color: orange;
+    opacity: .8;
+    color: black;
+    cursor: pointer;
+}
+
+#helpinghand .apply a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#helpinghand button {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: yellow;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 0px 0px 25px 0px;
+    text-decoration: none;
+    outline: none;
+}
+
+#helpinghand button:hover {
+    background-color: green;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+}
+
+#helpinghand button a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#helpinghand button a:hover {
+    color: white;
+}
+/* Section 4 */
+
+#scholarships {
+    background-image: url(../img/college_female-student.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.5);
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px black;
+}
+
+#scholarships h1 {
+    font-family: 'Kreon', serif;
+    font-size: 60px;
+    color: black;
+    margin: 50px 20px 20px 20px;
+}
+
+#scholarships h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: black;
+    margin: 20px;
+    line-height: 50px;
+}
+
+#scholarships h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: black;
+    margin: 20px;
+    line-height: 35px;
+}
+
+#scholarships p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+    line-height: 20px;
+}
+
+#scholarships .apply {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: blue;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 0px 0px 25px 0px;
+    text-decoration: none;
+    outline: none;
+}
+
+#scholarships .apply:hover {
+    background-color: orange;
+    opacity: .8;
+    color: black;
+    cursor: pointer;
+}
+
+#scholarships .apply a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#scholarships button {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: yellow;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 0px 0px 25px 0px;
+    text-decoration: none;
+    outline: none;
+}
+
+#scholarships button:hover {
+    background-color: green;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+}
+
+#scholarships button a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#scholarships button a:hover {
+    color: white;
+}
+/* Section 5 */
+
+#grants {
+    background-image: url(../img/desk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#grants h1 {
+    font-family: 'Kreon', serif;
+    font-size: 60px;
+    color: black;
+    margin: 50px 20px 20px 20px;
+}
+
+#grants h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: black;
+    margin: 20px;
+    line-height: 50px;
+}
+
+#grants h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: black;
+    margin: 20px;
+    line-height: 36px;
+}
+
+#grants p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+    line-height: 20px;
+}
+
+#grants .apply {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: blue;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 0px 0px 25px 0px;
+    text-decoration: none;
+    outline: none;
+}
+
+#grants .apply:hover {
+    background-color: orange;
+    opacity: .8;
+    color: black;
+    cursor: pointer;
+}
+
+#grants .apply a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+#grants button {
+    font-family: 'Roboto', sans-serif;
+    height: 75px;
+    width: 400px;
+    border-style: solid;
+    background-color: yellow;
+    border-color: white;
+    border-width: 1px;
+    padding: 0px 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 0px 0px 25px 0px;
+    text-decoration: none;
+    outline: none;
+}
+
+#grants button:hover {
+    background-color: green;
+    opacity: .8;
+    color: white;
+    cursor: pointer;
+}
+
+#grants button a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#grants button a:hover {
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: gray;
+}
+/* define tablet specific styles come here */
+
+@media screen and (max-width: 991px) {
+    .navbar>.container .navbar-brand {
+        color: white;
+        font-family: 'Kreon', serif;
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: #fff;
+        line-height: 40px;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-style: bold;
+        background-color: yellow;
+        line-height: 40px;
+    }
+    /* First Section */
+    
+    #landing h1 {
+        font-family: 'Kreon', serif;
+        font-size: 50px;
+        color: black;
+        line-height: 60px;
+        margin-top: 75px;
+    }
+    #footer {
+        font-size: 16px;
+    }
+    #footer span {
+        text-align: center;
+    }
+}
+/* define mobile "new phones" specific styles come here */
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .navbar>.container .navbar-brand {
+        color: white;
+        font-family: 'Kreon', serif;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    #landing h1 {
+        font-family: 'Kreon', serif;
+        font-size: 36px;
+        color: black;
+        line-height: 50px;
+        margin-top: 60px;
+    }
+    #aboutus h1 {
+        font-family: 'Kreon', serif;
+        font-size: 36px;
+        color: black;
+        margin: 50px 20px 20px 20px;
+    }
+    #aboutus h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #aboutus h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #helpinghand h1 {
+        font-family: 'Kreon', serif;
+        font-size: 36px;
+        color: black;
+        margin: 50px 20px 20px 20px;
+    }
+    #helpinghand h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #helpinghand h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #scholarships h1 {
+        font-family: 'Kreon', serif;
+        font-size: 36px;
+        color: black;
+        margin: 50px 20px 20px 20px;
+    }
+    #scholarships h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #scholarships h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #grants h1 {
+        font-family: 'Kreon', serif;
+        font-size: 36px;
+        color: black;
+        margin: 50px 20px 20px 20px;
+    }
+    #grants h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #grants h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        line-height: 32px;
+    }
+    #footer span {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+/* define mobile "old phones" specific styles come here */
+
+@media screen and (max-width: 320px) {
+
+    .navbar>.container .navbar-brand {
+        color: white;
+        font-family: 'Kreon', serif;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    #landing h1 {
+        font-family: 'Kreon', serif;
+        font-size: 24px;
+        color: black;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+}
